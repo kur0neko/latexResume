@@ -1,0 +1,316 @@
+%-------------------------
+% Resume in Latex
+% Author : Nutthawat Panyangnoi
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+
+    }
+
+    \newcommand{\resumeProjectHeading}[2]{
+      \item
+      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & \textbf{\small #2}\\
+      \end{tabular*}\vspace{-7pt}
+  }
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\vspace{-10pt}
+\begin{center}
+    {\Huge \scshape Nutthawat Panyangnoi}\\ 
+    \vspace{1pt}{https://kur0neko.com}\\ \vspace{1pt} 
+    \vspace{0.5pt} San Jose, CA 95112 \\ \vspace{0.5pt}
+    \small \raisebox{-0.1\height}\faPhone\ (209) 407-9730 ~ \href{mailto:panyangnoi.nutthawat@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{panyangnoi.nutthawat@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/nathan-panyangnoi/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/nathan-panyangnoi/}}  ~
+    \href{https://github.com/kur0neko}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/kur0neko}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {San Jose State University}{Aug 2022 -- May 2025}
+      {Bachelor of Science in Computer Engineering, Minor in Computer Science}{San Jose, CA}
+      \resumeSubheading
+      {Las Positas College}{Aug 2018 -- May 2022}
+      {Associate of Science in Computer Science, Minor in Math}{Livermore, CA}
+      \resumeSubheading
+      {King Mongkut’s University of Technology Thonburi}{May 2010 -- June 2012}
+      {Bachelor of Science in Computer Science} {Did not complete the degree due to family relocation to U.S.}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[left=0.15in, label={}]
+    \small{
+    \item \textbf{Programing skills:} Python, CSS, HTML, mySQL, C/C++,Java, Javascript, MongoDB, NodeJS, PHP, HDL (Verilog/ SystemVerilog) \\
+    \textbf{Tools \& Frameworks:} Git / GitHub, GDB (Debuggers), SPICE (LtSpice), Flask, Numpy, Pandas, Pytorch, AutoCAD, Adobe Creative Suit, Microsoft Office, VMware, Docker  \\
+    \textbf{Shell Scripting:} BASH Script, Window Power Shell \\
+    \textbf{Networking \& Protocols:} TCP/IP, DNS/DHCP, NAS, VPN Configuration \\
+    \textbf{Hardware \& Electrical:} Schematics,testing devices (Oscilloscopes, Multimeters, Frequency generators), soldering \\
+    \textbf{Systems \& Software:} Windows, Linux \\
+    }
+\end{itemize}
+\vspace{-15pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-1pt, parsep=3pt]
+                \item \small Software Engineering
+                \item \small Digital Circuit Design 
+                \item \small Advanced data structures and algorithms
+                \item \small Embedded Systems
+                \item \small SQL 
+                \item \small Computer Networks
+                \item \small Microprocessors Design
+                \item \small Computer Architecture
+                \item \small Machine Learning
+                \item \small OS Design
+                \item \small Assembly Language (MIPS, NASM, MASM)
+            \end{itemize}
+        \end{multicols}
+        \vspace*{1.5\multicolsep}
+    %\resumeSubHeadingListEnd
+\vspace{8pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+   \resumeSubheading
+    {NASA (NASA L'SPACE Proposal Writing Academy)}{August 2024 - Present}
+    {Researcher}{remote}
+    \resumeItemListStart
+        \resumeItem{Collaborating with multi-disciplinary teams to research and develop the innovative solutions proposal to NASA's pain points.}
+        \resumeItem{Apply trade Study TRL to identify the right choice of innovative solution.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {NASA (NASA L'SPACE Mission Concept Academy)}{April 2024 -- August 2024}
+      {Program Analyst \& Computer Hardware Engineer }{remote}
+      \resumeItemListStart
+        \resumeItem{Conducted cost estimation for simulated lunar missions, using advanced methodologies and tools such as NASA MCCET and NICM CERs/SERs. }
+        \resumeItem{Managed mission schedules from prelaunch to closeout, collaborating with project managers, scientists, and engineers. }
+        \resumeItem{Engineered the design of the Command and Data Handling (CDH) subsystem, contributing to mission critical components of the project.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Mountain Cascade, Inc}{March 2020 - August 2023}
+      {IT technician \& IT manager}{Livermore, CA}
+      \resumeItemListStart
+        \resumeItem{Offers customer service and satisfaction for engineers, project managers and field workers.}
+        \resumeItem{Optimized Window Virtual Machine Servers, enabling seamless remote engineering work.}
+        \resumeItem{Diagnosed and resolved complex hardware and software issues, with a specialization in Windows environments.}
+        \resumeItem{Enforced security policies and systems on Windows servers to ensure data integrity and protection, including technology upgrades and server optimization, aligning with organizational objectives.}
+        \resumeItem{Provided comprehensive IT support, including HCSS, Sage products, and Timberline Accounting. }
+      \resumeItemListEnd
+
+    \newpage
+
+    \resumeSubheading
+      {Amber System Technology}{April 2018 - March 2020 }
+      {Frontend Software Engineer}{Pleasanton, CA}
+      \resumeItemListStart
+        \resumeItem{Create intuitive UX/UI designs for POS systems to improve user experience and customer engagement.}
+        \resumeItem{Oversee web content and development projects, ensuring consistency with branding aligned to client requirements.}
+        \resumeItem{Give technical cumstomers support via Cisco VoIP, for efficient and effective problem resolution.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Volcano Splash Drinks (Small Private Family business)}{August 2013 - December 2018}
+      {Barista and Operations Lead}{Tracy, CA}
+      \resumeItemListStart
+        \resumeItem{Optimized business layout and processes, significantly enhancing customer flow and operational efficiency}
+        \resumeItem{implement solution operating procedures, ensuring consistent delivery of top-quality customer service}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{Neural Network Machine Learning} \\ \emph{Python, Pytorch, Pandas, Numpy}}{2024}
+    \resumeItemListStart
+        \resumeItem{Implement Neural Network that can predict the number from the user prompt.}
+       \resumeItemListEnd
+
+       \resumeProjectHeading
+       {\textbf{Note Hub} \\ \emph{Python, Flask, SQLAlchemy, Jinja2, EmailValidator, anaconda}}{2023}
+       \resumeItemListStart
+           \resumeItem{NoteHub is the Note Web application built with Flask python framework, WTforms, SQL alchemy, and Jinja web template engine.}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Encryption Decryption program} \\ \emph{NASMx86}}{2021}
+          \resumeItemListStart
+              \resumeItem{Implementing Assembly programing x86 64bits Encryption and Decryption File.}
+             \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{CUBE3 Satellite Club}{Aug 2024 -- Present}{Controls (Programmer Active Member)}{}
+            \resumeItemListStart
+                \resumeItem{Collaborate with group of engineering developing software to control the Satellite}
+        \resumeItemListEnd
+
+        \resumeSubheading{SJSU Competitive programing }{Aug 2024 -- Present}{Regular Active member}{}
+        \resumeItemListStart
+            \resumeItem{Regularly solve challenges on platforms like LeetCode to improve coding proficiency and prepare for programming competitions.}
+            \resumeItem{Participate in competitive programming contests to apply skills in real-time scenarios and improve problem-solving speed and accuracy.}
+            \resumeItem{Relearn and enhance understanding of data structures and algorithms through hands-on practice and problem-solving.}
+       \resumeItemListEnd
+
+       \resumeSubheading{SJSU machine learning}{Aug 2023 -- Present}{Regular Active member}{}
+            \resumeItemListStart
+                \resumeItem{Participate in collaborative research and implementation of various machine learning projects, contributing to the development and refinement of models, algorithms, and applications.}
+        \resumeItemListEnd
+
+        \resumeSubheading{Tau Beta Pi Engineering Honor Society}{January 2023 -- Present}{Regular Active member}{}
+            \resumeItemListStart
+                \resumeItem{Selected for membership in recognition of academic excellence and leadership potential in the field of engineering.}
+                \resumeItem{Participate in club meetings, events, and activities aimed at promoting professional development, community service, and academic collaboration.}
+                \resumeItem{Engage in networking opportunities with distinguished professionals, alumni, and fellow members to enhance career prospects and technical knowledge.}
+                
+        \resumeItemListEnd
+        
+        \newpage
+        \resumeSubheading{SJSU Software Engineering club}{Aug 2022 -- Present}{Regular Active member}{}
+            \resumeItemListStart
+                \resumeItem{Contribute to discussions on software engineering best practices, coding standards, and technologies}
+        \resumeItemListEnd
+
+        \resumeSubheading{MESA Engineering SJSU}{Aug 2022 -- Present}{Regular Active member}{}
+            \resumeItemListStart
+                \resumeItem{Participate in academic enrichment programs, workshops, and events aimed at supporting underrepresented students in engineering, mathematics, and science.}
+                \resumeItem{Collaborate with fellow students in projects, study groups, and hands-on activities designed to enhance technical skills and knowledge in engineering disciplines.}
+                \resumeItem{Engage in leadership and professional development opportunities provided by MESA, such as networking events, career panels, and mentorship programs.}
+        \resumeItemListEnd
+        \resumeSubHeadingListEnd
+   
+
+    \vspace{-16pt}
+%-----------AWARDS-----------
+\section{Awards}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+        {Awards:}{}{}{}
+        \vspace{-8pt} % Adjust spacing if needed
+        San Jose State University Fall 2022 Dean’s List Awards
+        Las Positas College Fall 2021 Dean’s List Awards  
+    \vspace{5pt}
+    \resumeSubheading
+        {Scholarship:}{}{}{}
+        \vspace{5pt} % Adjust spacing if needed
+        Las Positas College EOPS's Scholarship 2020-2022
+  \resumeSubHeadingListEnd
+\end{document}
