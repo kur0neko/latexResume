@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1728525363.56671 "/Users/kumamew/Downloads/Nutthawat ResumeLatex/main.tex" "main.pdf" "main" 1728525364.20018 0
-  "/Users/kumamew/Downloads/Nutthawat ResumeLatex/main.tex" 1728525363.82334 11793 a254cd1c5226ecf7ffe6c279edeee5d5 ""
+["pdflatex"] 1728525934.43403 "/Users/kumamew/Downloads/Nutthawat ResumeLatex/main.tex" "main.pdf" "main" 1728525935.05347 0
+  "/Users/kumamew/Downloads/Nutthawat ResumeLatex/main.tex" 1728525934.24496 11823 dd5a73f7ebb72e2bf7ac99aa1272b43d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -100,9 +100,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1724724563.06495 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1724724457 8221424 02cbac57aa8d4c5730c5a0120fbbde29 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1728525364.14293 1010 7b2fd4c67135f647bc60d93696dd96f8 "pdflatex"
-  "main.out" 1728525364.14354 755 75b00ae682dabc73006eb17079289066 "pdflatex"
-  "main.tex" 1728525363.82334 11793 a254cd1c5226ecf7ffe6c279edeee5d5 ""
+  "main.aux" 1728525934.99539 1010 7b2fd4c67135f647bc60d93696dd96f8 "pdflatex"
+  "main.out" 1728525934.996 755 75b00ae682dabc73006eb17079289066 "pdflatex"
+  "main.tex" 1728525934.24496 11823 dd5a73f7ebb72e2bf7ac99aa1272b43d ""
   (generated)
   "main.aux"
   "main.log"
