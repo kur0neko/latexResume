@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  9 OCT 2024 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  9 OCT 2024 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -373,11 +373,11 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 125.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 136.
+(Font)              <10.95> on input line 137.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 136.
+(Font)              <8> on input line 137.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 136.
+(Font)              <6> on input line 137.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -402,7 +402,7 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F084DC17C6005AF2B784D1D448BBE6D4;1006.
+(rerunfilecheck)             Checksum: 22F4700EBAC7C9BE081C4C9D0D9C5B12;849.
  ) 
 Here is how much of TeX's memory you used:
  13918 strings out of 474116
@@ -413,7 +413,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,384b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (2 pages, 107629 bytes).
+Output written on main.pdf (2 pages, 104695 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
