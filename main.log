@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  9 OCT 2024 19:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.26)  15 JAN 2025 13:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/kumamew/Downloads/Nutthawat ResumeLatex/main.tex"
-(/Users/kumamew/Downloads/Nutthawat ResumeLatex/main.tex
+**/Users/kumamew/Documents/latexResume/main.tex
+(/Users/kumamew/Documents/latexResume/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -356,28 +356,28 @@ Package hyperref Info: Link coloring OFF on input line 118.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 121.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 124.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 123.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 124.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 123.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 124.
+(Font)              <7> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 124.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 124.
+(Font)              <5> on input line 123.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 123.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 125.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 124.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 125.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 124.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 137.
+(Font)              <10.95> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 137.
+(Font)              <8> on input line 134.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 137.
+(Font)              <6> on input line 134.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -386,13 +386,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./main.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -402,21 +396,21 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 75B00AE682DABC73006EB17079289066;755.
+(rerunfilecheck)             Checksum: 9643347ABF51D6F2A0EF6DAA44ACC117;1250.
  ) 
 Here is how much of TeX's memory you used:
- 13916 strings out of 474116
- 239819 string characters out of 5743682
- 1957187 words of memory out of 5000000
- 36113 multiletter control sequences out of 15000+600000
- 564813 words of font info for 62 fonts, out of 8000000 for 9000
+ 13912 strings out of 474116
+ 239737 string characters out of 5743682
+ 1964187 words of memory out of 5000000
+ 36111 multiletter control sequences out of 15000+600000
+ 564204 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,384b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,567b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on main.pdf (2 pages, 90450 bytes).
+Output written on main.pdf (1 page, 87739 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
