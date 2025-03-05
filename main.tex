@@ -1,9 +1,5 @@
-%-------------------------
-% Resume in Latex
-% Author : Nutthawat Panyangnoi
-% Based off of: https://github.com/sb2nov/resume
-% License : MIT
-%------------------------
+% Resume in LaTeX
+% Author: Nutthawat Panyangnoi
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -12,238 +8,124 @@
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
 \usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
-\input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+\usepackage{fontawesome5}  % Keeping icons
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.8in}
 \addtolength{\evensidemargin}{-0.4in}
-\addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
 \addtolength{\textheight}{1.5in}
 
-\urlstyle{same}
+% Section formatting
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\normalsize\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-\raggedbottom
-\raggedright
-\setlength{\tabcolsep}{0in}
-
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\normalsize\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
+% Ensure PDF is machine-readable
 \pdfgentounicode=1
 
-%-------------------------
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      {\small#3} & {\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-    {\small#1} & {\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-
-    }
-
-    \newcommand{\resumeProjectHeading}[2]{
-      \item
-      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-        {\small#1} & \textbf{\small #2}\\
-      \end{tabular*}\vspace{-7pt}
-  }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
-\vspace{-15pt}
+\vspace{-10pt}
 \begin{center}
-    {\large \scshape\textbf{NUTTHAWAT PANYANGNOI}} \\
-    \vspace{0.4pt} San Jose, CA 95112 \\ \vspace{1pt} 
-    \small \raisebox{-0.1\height}\faPhone\ (209) 407-9730 ~ \href{mailto:panyangnoi.nutthawat@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{panyangnoi.nutthawat@gmail.com}} ~ 
-    \href{https://www.linkedin.com/in/nathan-panyangnoi/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/nathan-panyangnoi/}}  ~
-    \href{https://github.com/kur0neko}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/kur0neko}}
+    {\Large \textbf{NUTTHAWAT PANYANGNOI}} \vspace{1pt} 
+    \small 
+    \raisebox{-0.1\height}\faPhone\ (209) 407-9730 \\
+    \href{mailto:panyangnoi.nutthawat@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ panyangnoi.nutthawat@gmail.com} ~ |
+    \href{https://www.linkedin.com/in/nathan-panyangnoi/}{\raisebox{-0.2\height}\faLinkedin\ linkedin.com/in/nathan-panyangnoi/} ~ |
+    \href{https://github.com/kur0neko}{\raisebox{-0.2\height}\faGithub\ github.com/kur0neko} 
     \vspace{-8pt}
 \end{center}
 
 %-----------EDUCATION-----------
-\section{EDUCATION}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Las Positas College        GPA: 3.5/4.0}{Aug 2018 -- May 2022}
-      {{Associate in Science in Computer Science with Minor in Math}}{Livermore, CA}
-    \resumeSubheading
-      {San Jose State University  GPA: 3.31/4.0}{Aug 2022 -- Dec 2025}
-      {{Bachelor of Science in Computer Engineering with Minor in Computer Science}}{San Jose, CA}  
-  \resumeSubHeadingListEnd
+\section{Education}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{San Jose State University}, San Jose, CA \hfill \textbf{Dec 2025} \\ 
+    \textbf{Bachelor of Science in Computer Engineering, Minor in Computer Science} \\ 
+    GPA: 3.31/4.0
+    \item \textbf{Las Positas College}, Livermore, CA \hfill \textbf{May 2022}  \\
+    \textbf{Associate of Science in Computer Science, Minor in Math} \\ 
+    GPA: 3.5/4.0
+\end{itemize}
 
-  %------RELEVANT COURSEWORK-------
-\section{RELEVANT COURSEWORK}
-%\resumeSubHeadingListStart
-    \begin{multicols}{4}
-        \begin{itemize}[itemsep=-1pt, parsep=3pt]
-            \item \small Software Engineering
-            \item \small Digital Circuit Design 
-            \item \small Advanced data structures and algorithms
-            \item \small Embedded Systems
-            \item \small Advanced SQL 
-            \item \small Computer Networks
-            \item \small Microprocessors Design
-            \item \small Computer Architecture
-            \item \small OS Design
-            \item \small Assembly Language (MIPS, NASM, MASM)
-        \end{itemize}
-    \end{multicols}
-    \vspace*{1.5\multicolsep}
-%\resumeSubHeadingListEnd
-\vspace{-1pt}
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+\begin{multicols}{3}
+    \begin{itemize}[itemsep=1pt, parsep=2pt]
+        \item Software Engineering I \& II
+        \item Digital Circuit Design
+        \item Data Structures
+        \item Embedded Systems
+        \item SQL, NoSQL
+        \item Computer Networks
+        \item Microprocessor Design
+        \item Computer Architecture
+        \item Operating System Design
+        \item Assembly Languages
+        \item C, C++ Programming
+        \item Java, Python
+    \end{itemize}
+\end{multicols}
 
-%-----------SKILLS-----------
-\section{TECHNICAL SKILLS}
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
 \begin{itemize}[left=0.15in, label={}]
     \small{
-    \item \textbf{Languages:} Python, CSS, HTML, mySQL, React, C, C++,Javascript, MongoDB, NodeJS, PHP, 
-    Verilog, BASH Script and more\\ \vspace{1pt}
-    \textbf{Frameworks and Programming Libraries:} Git, GDB (Debuggers), Lt Spice, Flask, Numpy, Pandas, Pytorch \\ \vspace{1pt}
-    \textbf{Softwares:} SOLIDWORKS, Adobe Creative Suit, Microsoft Office, VMware, Docker, Timberline Accounting, Sage, and HCSS. \\ \vspace{1 pt}
-    \textbf{Networking Configuration:} TCP/IP, DNS/DHCP, NAS Configuration, and VPN Configuration. \\ \vspace{1pt}
-    \textbf{Hardware Configurations:} Computer Server setup, System Assembly, CPU Socketing, BIOS Update/Flashing, Disk Configuration, and Network configuration. \\ \vspace{1pt}
-    \textbf{Operation Systems:} Windows, Linux distros(Mint, Arch, Elementary, more), and macOS. \\ \vspace{1pt}
+    \item \textbf{Programming Languages:} C, C++, Python, JavaScript, React Native, React, Flutter, SQL, Verilog, HTML, CSS
+    \item \textbf{Software:} VMware, Docker, Microsoft Office, Adobe Creative Suite, SolidWorks, Lt spice, Vivado, Git, Figma
+    \item \textbf{Networking:} TCP/IP, DNS/DHCP, NAS Setup, VPN Configuration
+    \item \textbf{Hardware:} Computer Assembly program (NASM, MASM,RISC-V), Server Setup, BIOS Flashing, Raid Configuration
+    \item \textbf{Operating Systems:} Windows, Linux (Mint, Arch, Ubuntu), macOS
     }
 \end{itemize}
-\vspace{-17pt}
 
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{NASA L’Space Mission Concept Academy} \hfill \textbf{Aug 2024} \\
+    Workforce development program providing hands-on NASA experience. \\
+
+    \item \textbf{NASA Proposal Writing \& Evaluation Experience} \hfill \textbf{Dec 2024} \\ 
+    Worked with engineers to develop solutions for NASA’s challenges.
+\end{itemize}
 %-----------EXPERIENCE-----------
-\section{PROFESSIONAL WORK EXPERIENCES}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Mountain Cascade, Inc}{March 2020 - August 2023}
-      {IT technician}{Livermore, CA}
-      \resumeItemListStart
-        \resumeItem{Delivered comprehensive technical IT support for engineers, resolving complex hardware, software, and network issues.}
-        \resumeItem{Diagnosed and resolved complex hardware and software issues, with a specialization in Windows environments.}
-        \resumeItem{Enforced security policies on servers to ensure data integrity and protection,aligning with organizational objectives.}
-      \resumeItemListEnd
+\section{Professional Experience}
+\textbf{Mountain Cascade, Inc} — \textit{IT Technician} \hfill \textbf{Mar 2020 - Aug 2023}  
+\textit{Livermore, CA}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item Provided IT support for engineers, resolving hardware, software, and network issues.
+    \item Diagnosed and repaired complex hardware/software issues, specializing in Windows and Linux environments.
+    \item Enforced security policies for servers to ensure data integrity and protection.
+\end{itemize}
+\textbf{Amber System Technology} — \textit{Frontend Software Developer} \hfill \textbf{Apr 2018 - Mar 2020}  
+\textit{Pleasanton, CA}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item Designed UX/UI for POS systems, improving user experience by twice.
+    \item Led team development projects ensuring the functionals are consistency as client needed.
+    \item Provided technical support via Cisco VoIP for efficient issue resolution.
+\end{itemize}
 
-    \resumeSubheading
-      {Amber System Technology}{April 2018 - March 2020 }
-      {Frontend Software Developer}{Pleasanton, CA}
-      \resumeItemListStart
-        \resumeItem{Created intuitive UX/UI designs for POS systems improved 50\% user experience , based on customer feedback.}
-        \resumeItem{Oversaw web content and development projects, ensuring consistency with branding and alignment to client requirements.}
-        \resumeItem{Offered technical customer support via Cisco VoIP, for efficient and effective problem resolution.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Volcano Splash Drinks }{August 2013 - December 2018}
-      {Barista and Operations Lead}{Tracy and Stockton, CA}
-      \resumeItemListStart
-        \resumeItem{Handled daily complex operational challenges including inventory, staff training, and customer service.}
-        \resumeItem{Optimized business layout and processes, enhancing customer flow and operational efficiency.}
-        \resumeItem{Implemented solution operating procedures, ensuring consistent delivery of top-quality customer service.}
-      \resumeItemListEnd
-      
-  \resumeSubHeadingListEnd
-\vspace{-17pt}
+%-----------EXTRACURRICULAR-----------
+%\section{Extracurricular}
+%\begin{itemize}[leftmargin=0.1in, label={}]
+ %   \item \textbf{Tau Beta Pi} Active Engineering Honor Society Member
+  %  \item \textbf{San Jose State University Club activities}\\
+   %   SJSU Machine Learning,  SJSU Competitive Programming, MESA Engineering, SJSU CubeSat
+%\end{itemize}
 
 %-----------PROJECTS-----------
-\section{PROJECTS (For more projects please checkout project links on:(https://kur0neko.com)}
-    \resumeSubHeadingListStart
-    \resumeProjectHeading
-    {\textbf{Neural Network Machine Learning } {(Python, Pytorch, Pandas, Numpy)}}{}
-    \resumeItemListStart
-        \resumeItem{Developed a Neural Network model to analyze handwritten digit images, achieving 80\% accuracy}
-       \resumeItemListEnd
+\section{Projects (Find More on going Projects at: \href{https://kur0neko.com}{https://kur0neko.com})}
+\textbf{Neural Network Machine Learning} \textit{(Python, PyTorch, Pandas, Numpy)}  
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item Developed a neural network to analyze handwritten digits, achieving 80\% accuracy.
+\end{itemize}
+\textbf{Note Hub} \textit{(Python, Flask, SQLAlchemy, Jinja2, EmailValidator, Anaconda)}  
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item Built a web application inspired by Notion for structured note-taking.
+\end{itemize}
 
-       \resumeProjectHeading
-       {\textbf{Note Hub} {(Python, Flask, SQLAlchemy, Jinja2, EmailValidator, Anaconda)}}{}
-       \resumeItemListStart
-           \resumeItem{Web application which inspired by Notion note implemented with python and its libraries}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-    \vspace{-17pt}
-
-
-%-----------Extra Activities---------------
-\section{EXTRACURRICULAR}
-    \resumeSubHeadingListStart
-      \resumeSubheading{NASA L'Space Program Project Proposal and Mission Concept Academy }{April 2024 - December 2024}{}{}\vspace{-16pt}
-      \resumeItemListStart
-      \resumeItem{Extensive workforce development program that designed to provide hands-on learning and insight from NASA }
-        \resumeItem{Co-authored technical technology proposal in response to request from NASA Marshall Space Flight Center}
-        \resumeItemListEnd
-      \resumeSubheading{Engineering Honor society: Tau Beta Pi}{}{}{}\vspace{-16pt}
-        \resumeSubheading{SJSU Clubs: SJSU Machine learning,Competitive programing, MESA Engineering, SJSU CubeSat}{}{}{}
-        \resumeSubHeadingListEnd
-%-----------Activities---------------
-
-%\section{AWARDS}
-%        \resumeSubHeadingListStart
- %       \resumeItem { \textbf{Dean’s List — San Jose State University Fall 2022}}{}{}{}
- %       \resumeItem{ \textbf{Dean’s List — Las Positas College Fall 2021}}{}{}{}
- %       \resumeItem{\textbf{LPC Photographer Awards -- Las Positas College Fall 2019}}{}{}{}
- %       \resumeItem{\textbf{LPC EOPS Awards- Las Positas College Fall 2019 -- Spring 2022}}{}{}{}
-  %      \resumeSubHeadingListEnd
- %       \vspace{-16pt}
 \end{document}
-
